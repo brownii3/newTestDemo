@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek - eTutors</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/global.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/header.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/buttons.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/footer.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/cards.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/support.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <!-- Scripts -->
+    <script src="/projects/eTutorsNativeS/assets/js/translations.js"></script>
+    <script src="/projects/eTutorsNativeS/assets/js/theme.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-effect">
+        <nav class="container">
+            <div class="logo">
+                <i class="ti ti-rocket text-gradient"></i>
+                <span>eTutors</span>
+            </div>
+            <div class="nav-links">
+                <a href="/projects/eTutorsNativeS/" data-translate="header.nav_home">Anasayfa</a>
+                <a href="/projects/eTutorsNativeS/about" data-translate="header.nav_about">Hakkımızda</a>
+                <a href="/projects/eTutorsNativeS/pricing" data-translate="header.nav_pricing">Fiyatlandırma</a>
+                <a href="/projects/eTutorsNativeS/support" class="active" data-translate="header.nav_support">Destek</a>
+            </div>
+            <div class="nav-actions">
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="tr">
+                        <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                        <span>TR</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="tr">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                            <span>Türkçe</span>
+                        </button>
+                        <button class="lang-option" data-lang="en">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/en.svg" alt="English">
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="ti ti-sun"></i>
+                </button>
+                <button class="btn btn-outline" data-translate="header.btn_login">Giriş Yap</button>
+                <button class="btn btn-primary" data-translate="header.btn_signup">Üye Ol</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero support-hero">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h1 class="text-gradient" data-translate="support.hero.title">Size Nasıl Yardımcı Olabiliriz?</h1>
+                    <p class="hero-description" data-translate="support.hero.description">
+                        Sıkça sorulan sorular, eğitim videoları ve destek ekibimiz ile yanınızdayız.
+                    </p>
+                    <div class="search-box">
+                        <i class="ti ti-search"></i>
+                        <input type="text" placeholder="..." data-translate="support.hero.search_placeholder">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Support Categories -->
+        <section class="support-categories">
+            <div class="container">
+                <div class="categories-grid">
+                    <!-- Getting Started -->
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="ti ti-rocket"></i>
+                        </div>
+                        <h3 data-translate="support.categories.getting_started.title">Başlangıç Rehberi</h3>
+                        <p data-translate="support.categories.getting_started.desc">Etsy mağazanızı kurmak için adım adım rehber</p>
+                        <a href="#" class="category-link" data-translate="support.categories.view">Rehberi Görüntüle</a>
+                    </div>
+
+                    <!-- Account & Billing -->
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="ti ti-user-circle"></i>
+                        </div>
+                        <h3 data-translate="support.categories.account.title">Hesap ve Faturalama</h3>
+                        <p data-translate="support.categories.account.desc">Üyelik ve ödeme işlemleri hakkında bilgiler</p>
+                        <a href="#" class="category-link" data-translate="support.categories.view">Detayları Görüntüle</a>
+                    </div>
+
+                    <!-- Design Templates -->
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="ti ti-template"></i>
+                        </div>
+                        <h3 data-translate="support.categories.templates.title">Tasarım Şablonları</h3>
+                        <p data-translate="support.categories.templates.desc">Şablonları kullanma ve özelleştirme rehberi</p>
+                        <a href="#" class="category-link" data-translate="support.categories.view">Rehberi Görüntüle</a>
+                    </div>
+
+                    <!-- SEO & Marketing -->
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="ti ti-chart-line"></i>
+                        </div>
+                        <h3 data-translate="support.categories.seo.title">SEO ve Pazarlama</h3>
+                        <p data-translate="support.categories.seo.desc">Satışlarınızı artırmak için SEO ipuçları</p>
+                        <a href="#" class="category-link" data-translate="support.categories.view">İpuçlarını Görüntüle</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="support.faq.title">Sıkça Sorulan Sorular</h2>
+                    <p data-translate="support.faq.subtitle">En çok sorulan sorular ve cevapları</p>
+                </div>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="support.faq.items.start.question">eTutors'ı nasıl kullanmaya başlarım?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="support.faq.items.start.answer">Üye olduktan sonra size özel panelinize erişebilir ve hemen kullanmaya başlayabilirsiniz. Başlangıç rehberimiz size yardımcı olacaktır.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="support.faq.items.templates.question">Şablonları nasıl özelleştirebilirim?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="support.faq.items.templates.answer">Şablonlarımız Photoshop ve Canva formatında sunulmaktadır. Her şablon için detaylı özelleştirme rehberi bulunmaktadır.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="support.faq.items.seo.question">SEO etiketlerini nasıl kullanmalıyım?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="support.faq.items.seo.answer">SEO etiketleri ürününüze özel olarak optimize edilmiştir. Etiketleri Etsy listinize ekleyerek daha fazla görüntülenme alabilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="support.contact.title">Hala Yardıma mı İhtiyacınız Var?</h2>
+                    <p data-translate="support.contact.subtitle">Destek ekibimiz size yardımcı olmak için hazır</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Email Support -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="ti ti-mail"></i>
+                        </div>
+                        <h3 data-translate="support.contact.email.title">Email Desteği</h3>
+                        <p data-translate="support.contact.email.desc">Ortalama yanıt süremiz 24 saattir</p>
+                        <a href="mailto:support@etutors.com" class="btn btn-outline">
+                            <i class="ti ti-mail"></i>
+                            <span data-translate="support.contact.email.button">Email Gönder</span>
+                        </a>
+                    </div>
+
+                    <!-- Live Chat -->
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="ti ti-messages"></i>
+                        </div>
+                        <h3 data-translate="support.contact.chat.title">Canlı Destek</h3>
+                        <p data-translate="support.contact.chat.desc">Mesai saatleri içinde anlık destek</p>
+                        <button class="btn btn-primary">
+                            <i class="ti ti-messages"></i>
+                            <span data-translate="support.contact.chat.button">Sohbeti Başlat</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="ti ti-rocket text-gradient"></i>
+                        <span>eTutors</span>
+                    </div>
+                    <p data-translate="footer.description">Etsy satıcıları için dijital çözümler sunan profesyonel platform.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.sitemap">Site Haritası</h4>
+                    <ul>
+                        <li><a href="/projects/eTutorsNativeS/" data-translate="footer.nav.home">Anasayfa</a></li>
+                        <li><a href="/projects/eTutorsNativeS/about" data-translate="footer.nav.about">Hakkımızda</a></li>
+                        <li><a href="/projects/eTutorsNativeS/pricing" data-translate="footer.nav.pricing">Fiyatlandırma</a></li>
+                        <li><a href="/projects/eTutorsNativeS/support" data-translate="footer.nav.support">Destek</a></li>
+                        <li><a href="/projects/eTutorsNativeS/contact" data-translate="footer.nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.legal.title">Yasal</h4>
+                    <ul>
+                        <li><a href="/kullanim-kosullari" data-translate="footer.legal.terms">Kullanım Koşulları</a></li>
+                        <li><a href="/gizlilik-politikasi" data-translate="footer.legal.privacy">Gizlilik Politikası</a></li>
+                        <li><a href="/cerez-politikasi" data-translate="footer.legal.cookie">Çerez Politikası</a></li>
+                        <li><a href="/kvkk" data-translate="footer.legal.kvkk">KVKK</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.contact.title">İletişim</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="ti ti-mail"></i>
+                            <a href="mailto:info@etutors.com" data-translate="footer.contact.email">info@etutors.com</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-phone"></i>
+                            <a href="tel:+902121234567" data-translate="footer.contact.phone">+90 (212) 123 45 67</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-map-pin"></i>
+                            <span data-translate="footer.contact.address">İstanbul, Türkiye</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p><span>&copy; 2024 eTutors.</span> <span data-translate="footer.copyright">Tüm hakları saklıdır.</span></p>
+                <div class="payment-methods">
+                    <i class="ti ti-brand-visa"></i>
+                    <i class="ti ti-brand-mastercard"></i>
+                    <i class="ti ti-brand-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Sayfa yüklendiğinde
+        document.addEventListener('DOMContentLoaded', function() {
+            // Dil seçenekleri için
+            const langBtn = document.querySelector('.lang-btn');
+            const langDropdown = document.querySelector('.lang-dropdown');
+            const langOptions = document.querySelectorAll('.lang-option');
+
+            // Dil butonuna tıklandığında dropdown'ı aç/kapat
+            langBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                langDropdown.classList.toggle('show');
+            });
+
+            // Dil seçeneklerine tıklandığında
+            langOptions.forEach(option => {
+                option.addEventListener('click', function() {
+                    const lang = this.getAttribute('data-lang');
+                    const currentLang = document.querySelector('.lang-btn');
+                    
+                    // Dil butonunun içeriğini güncelle
+                    currentLang.innerHTML = `
+                        <img src="/projects/eTutorsNativeS/assets/images/flags/${lang}.svg" alt="${lang.toUpperCase()}">
+                        <span>${lang.toUpperCase()}</span>
+                    `;
+                    
+                    // Dili değiştir
+                    changeLanguage(lang);
+                    
+                    // Dropdown'ı kapat
+                    langDropdown.classList.remove('show');
+                });
+            });
+
+            // Sayfa herhangi bir yerine tıklandığında dropdown'ı kapat
+            document.addEventListener('click', function() {
+                langDropdown.classList.remove('show');
+            });
+
+            // FAQ toggle işlevselliği
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const header = item.querySelector('.faq-header');
+                
+                header.addEventListener('click', () => {
+                    // Diğer açık olan FAQ öğelerini kapat
+                    faqItems.forEach(otherItem => {
+                        if (otherItem !== item && otherItem.classList.contains('active')) {
+                            otherItem.classList.remove('active');
+                        }
+                    });
+                    
+                    // Tıklanan öğeyi aç/kapat
+                    item.classList.toggle('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

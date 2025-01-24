@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eTutors - Etsy Satıcıları için Komple Çözüm</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/global.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/header.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/footer.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/homepage.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/buttons.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/cards.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <!-- Head bölümüne eklenecek -->
+    <script src="/projects/eTutorsNativeS/assets/js/translations.js"></script>
+    <script src="/projects/eTutorsNativeS/assets/js/homepage.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-effect">
+        <nav class="container">
+            <div class="logo">
+                <i class="ti ti-rocket text-gradient"></i>
+                <span>eTutors</span>
+            </div>
+            <div class="nav-links">
+                <a href="/projects/eTutorsNativeS/" class="active" data-translate="header.nav_home">Anasayfa</a>
+                <a href="/projects/eTutorsNativeS/about" data-translate="header.nav_about">Hakkımızda</a>
+                <a href="/projects/eTutorsNativeS/pricing" data-translate="header.nav_pricing">Fiyatlandırma</a>
+                <a href="/projects/eTutorsNativeS/support" data-translate="header.nav_support">Destek</a>
+            </div>
+            <div class="nav-actions">
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="tr">
+                        <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                        <span>TR</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="tr">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                            <span>Türkçe</span>
+                        </button>
+                        <button class="lang-option" data-lang="en">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/en.svg" alt="English">
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="ti ti-sun"></i>
+                </button>
+                <a class="btn btn-outline" data-translate="header.btn_login" href="/projects/eTutorsNativeS/auth/">Giriş Yap</a>
+                <a class="btn btn-primary" data-translate="header.btn_signup" href="/projects/eTutorsNativeS/auth/">Üye Ol</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <h1>
+                        <span data-translate="hero.title">Etsy'de Başarının</span><br>
+                        <span class="text-gradient" data-translate="hero.title_gradient">Yeni Formülü</span>
+                    </h1>
+                    <p class="hero-description" data-translate="hero.description">
+                        Eğitimden tasarıma, etiketlerden baskıya kadar Etsy satıcıları için 
+                        ihtiyacınız olan her şey tek bir platformda. Amerika'daki baskı ve 
+                        gönderim hizmetlerimizle işinizi büyütün.
+                    </p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-lg">
+                            <i class="ti ti-rocket"></i>
+                            <span data-translate="hero.cta">Hemen Başla</span>
+                        </button>
+                        <button class="btn btn-outline btn-lg">
+                            <i class="ti ti-player-play"></i>
+                            <span data-translate="hero.video">Nasıl Çalışır?</span>
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500</span>
+                            <div class="stat-label" data-translate="hero.stats.sellers">Aktif Satıcı</div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50</span>
+                            <div class="stat-label" data-translate="hero.stats.courses">Eğitim</div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10000</span>
+                            <div class="stat-label" data-translate="hero.stats.orders">Başarılı Sipariş</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://placehold.co/600x400" alt="eTutors Platform Preview">
+                    <div class="floating-card">
+                        <i class="ti ti-chart-arrows-up"></i>
+                        <span data-translate="hero.float">%300 Satış Artışı</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="features.title">Tek Platform, Tüm Çözümler</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <i class="ti ti-school"></i>
+                        </div>
+                        <h3 data-translate="features.items.training.title">Kapsamlı Eğitimler</h3>
+                        <p data-translate="features.items.training.desc">Etsy'de başarılı bir mağaza kurmanın tüm püf noktaları</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <i class="ti ti-brush"></i>
+                        </div>
+                        <h3 data-translate="features.items.design.title">Profesyonel Tasarımlar</h3>
+                        <p data-translate="features.items.design.desc">Trend analizli, satış odaklı tasarım hizmeti</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <i class="ti ti-tags"></i>
+                        </div>
+                        <h3 data-translate="features.items.seo.title">SEO Etiketleri</h3>
+                        <p data-translate="features.items.seo.desc">Satışlarınızı artıracak optimize edilmiş etiketler</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon-wrapper">
+                            <i class="ti ti-truck-delivery"></i>
+                        </div>
+                        <h3 data-translate="features.items.shipping.title">ABD'de Baskı ve Gönderim</h3>
+                        <p data-translate="features.items.shipping.desc">Stoksuz e-ticaret için komple fulfillment çözümü</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="products.title">En Popüler Ürünler</h2>
+                    <p data-translate="products.subtitle">Etsy satıcıları tarafından en çok tercih edilen dijital ürünler</p>
+                </div>
+                
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all" data-translate="products.filters.all">Tümü</button>
+                    <button class="filter-btn" data-filter="standart" data-translate="products.filters.standard">Standart</button>
+                    <button class="filter-btn" data-filter="premium" data-translate="products.filters.premium">Premium</button>
+                    <button class="filter-btn" data-filter="plus" data-translate="products.filters.plus">Plus</button>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Tasarım Paketi -->
+                    <div class="product-card" data-category="premium">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x300" alt="Tasarım Paketi">
+                            <span class="badge premium" data-translate="products.badges.premium">PREMİUM</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-translate="products.items.instagram.title">Instagram Şablon Paketi</h3>
+                            <p data-translate="products.items.instagram.desc">20 Story + 10 Post Şablonu</p>
+                            <div class="product-meta">
+                                <div class="rating">
+                                    <i class="ti ti-star-filled"></i>
+                                    <span>4.8 (95)</span>
+                                </div>
+                                <button class="product-btn">
+                                    <i class="ti ti-rocket"></i>
+                                    <span data-translate="products.cta">Hemen Başla</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kurs Paketi -->
+                    <div class="product-card" data-category="plus">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x300" alt="Kurs Paketi">
+                            <span class="badge plus" data-translate="products.badges.plus">PLUS</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-translate="products.items.store.title">Etsy Mağaza Paketi</h3>
+                            <p data-translate="products.items.store.desc">Banner + 5 Listing Şablonu</p>
+                            <div class="product-meta">
+                                <div class="rating">
+                                    <i class="ti ti-star-filled"></i>
+                                    <span>4.9 (120)</span>
+                                </div>
+                                <button class="product-btn">
+                                    <i class="ti ti-rocket"></i>
+                                    <span data-translate="products.cta">Hemen Başla</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SEO Paketi -->
+                    <div class="product-card" data-category="standart">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x300" alt="SEO Paketi">
+                            <span class="badge standart" data-translate="products.badges.standard">STANDART</span>
+                        </div>
+                        <div class="product-content">
+                            <h3 data-translate="products.items.seo.title">SEO Optimizasyon Paketi</h3>
+                            <p data-translate="products.items.seo.desc">Anahtar Kelime + Listing Optimizasyonu</p>
+                            <div class="product-meta">
+                                <div class="rating">
+                                    <i class="ti ti-star-filled"></i>
+                                    <span>5.0 (85)</span>
+                                </div>
+                                <button class="product-btn">
+                                    <i class="ti ti-rocket"></i>
+                                    <span data-translate="products.cta">Hemen Başla</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="pricing.title">Fiyatlandırma Planları</h2>
+                    <p data-translate="pricing.subtitle">İhtiyacınıza en uygun paketi seçin</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Standart Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 data-translate="pricing.plans.standard.title">Standart</h3>
+                            <div class="price">
+                                <span class="currency">₺</span>
+                                <span class="amount">199</span>
+                                <span class="period" data-translate="pricing.period">/aylık</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.standard.features.templates">10 Tasarım Şablonu</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.standard.features.seo">50 SEO Etiketi</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.standard.features.videos">Temel Eğitim Videoları</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.standard.features.support">Email Desteği</span></li>
+                            </ul>
+                        </div>
+                        <button class="pricing-btn" data-translate="pricing.plans.cta">Paketi Seç</button>
+                    </div>
+
+                    <!-- Premium Plan -->
+                    <div class="pricing-card popular">
+                        <div class="popular-badge" data-translate="pricing.popular_badge">En Çok Tercih Edilen</div>
+                        <div class="pricing-header">
+                            <h3 data-translate="pricing.plans.premium.title">Premium</h3>
+                            <div class="price">
+                                <span class="currency">₺</span>
+                                <span class="amount">399</span>
+                                <span class="period" data-translate="pricing.period">/aylık</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.premium.features.templates">30 Tasarım Şablonu</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.premium.features.seo">150 SEO Etiketi</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.premium.features.videos">Tüm Eğitim Videoları</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.premium.features.support">Öncelikli Destek</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.premium.features.consulting">Birebir Danışmanlık</span></li>
+                            </ul>
+                        </div>
+                        <button class="pricing-btn" data-translate="pricing.plans.cta">Paketi Seç</button>
+                    </div>
+
+                    <!-- Plus Plan -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3 data-translate="pricing.plans.plus.title">Plus</h3>
+                            <div class="price">
+                                <span class="currency">₺</span>
+                                <span class="amount">699</span>
+                                <span class="period" data-translate="pricing.period">/aylık</span>
+                            </div>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.templates">Sınırsız Tasarım</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.seo">Sınırsız SEO Etiketi</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.videos">VIP Eğitim İçerikleri</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.support">7/24 Öncelikli Destek</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.consulting">Haftalık Danışmanlık</span></li>
+                                <li><i class="ti ti-check"></i> <span data-translate="pricing.plans.plus.features.fulfillment">ABD Fulfillment</span></li>
+                            </ul>
+                        </div>
+                        <button class="pricing-btn" data-translate="pricing.plans.cta">Paketi Seç</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 data-translate="faq.title">Sıkça Sorulan Sorular</h2>
+                    <p data-translate="faq.subtitle">Merak ettiğiniz tüm soruların cevapları</p>
+                </div>
+
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="faq.items.start.question">eTutors ile nasıl başlarım?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="faq.items.start.answer">eTutors'a üye olduktan sonra size en uygun paketi seçerek hemen başlayabilirsiniz. Başlangıç eğitimlerimiz ile Etsy mağazanızı hızlıca kurabilirsiniz.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="faq.items.payment.question">Ödeme yöntemleri nelerdir?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="faq.items.payment.answer">Kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Ödemeleriniz 256-bit SSL ile güvenle şifrelenmektedir.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="faq.items.change.question">Paketimi değiştirebilir miyim?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="faq.items.change.answer">Evet, paketinizi dilediğiniz zaman yükseltebilir veya düşürebilirsiniz. Değişiklikler bir sonraki fatura döneminde geçerli olur.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-header">
+                            <h3 data-translate="faq.items.delivery.question">Tasarımları nasıl teslim ediyorsunuz?</h3>
+                            <button class="faq-toggle">
+                                <i class="ti ti-plus"></i>
+                            </button>
+                        </div>
+                        <div class="faq-content">
+                            <p data-translate="faq.items.delivery.answer">Tüm tasarımlar yüksek çözünürlüklü PNG ve düzenlenebilir PSD formatında size özel panelden indirilebilir şekilde teslim edilir.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Main'den sonra, body kapanmadan önce -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="ti ti-rocket text-gradient"></i>
+                        <span>eTutors</span>
+                    </div>
+                    <p data-translate="footer.description">Etsy satıcıları için dijital çözümler sunan profesyonel platform.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.sitemap">Site Haritası</h4>
+                    <ul>
+                        <li><a href="/projects/eTutorsNativeS/" data-translate="footer.nav.home">Anasayfa</a></li>
+                        <li><a href="/projects/eTutorsNativeS/about" data-translate="footer.nav.about">Hakkımızda</a></li>
+                        <li><a href="/projects/eTutorsNativeS/pricing" data-translate="footer.nav.pricing">Fiyatlandırma</a></li>
+                        <li><a href="/projects/eTutorsNativeS/support" data-translate="footer.nav.support">Destek</a></li>
+                        <li><a href="/projects/eTutorsNativeS/contact" data-translate="footer.nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.legal.title">Yasal</h4>
+                    <ul>
+                        <li><a href="/kullanim-kosullari" data-translate="footer.legal.terms">Kullanım Koşulları</a></li>
+                        <li><a href="/gizlilik-politikasi" data-translate="footer.legal.privacy">Gizlilik Politikası</a></li>
+                        <li><a href="/cerez-politikasi" data-translate="footer.legal.cookie">Çerez Politikası</a></li>
+                        <li><a href="/kvkk" data-translate="footer.legal.kvkk">KVKK</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.contact.title">İletişim</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="ti ti-mail"></i>
+                            <a href="mailto:info@etutors.com" data-translate="footer.contact.email">info@etutors.com</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-phone"></i>
+                            <a href="tel:+902121234567" data-translate="footer.contact.phone">+90 (212) 123 45 67</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-map-pin"></i>
+                            <span data-translate="footer.contact.address">İstanbul, Türkiye</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p><span>&copy; 2024 eTutors.</span> <span data-translate="footer.copyright">Tüm hakları saklıdır.</span></p>
+                <div class="payment-methods">
+                    <i class="ti ti-brand-visa"></i>
+                    <i class="ti ti-brand-mastercard"></i>
+                    <i class="ti ti-brand-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cookie Popup - Body kapanmadan önce -->
+    <div class="cookie-popup" id="cookiePopup">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <i class="ti ti-cookie"></i>
+                <h3 data-translate="cookie.title">Çerez Kullanımı</h3>
+            </div>
+            <p data-translate="cookie.description">
+                Size daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Çerez politikamızı inceleyerek tercihlerinizi güncelleyebilirsiniz.
+            </p>
+            <div class="cookie-actions">
+                <button class="btn btn-outline" id="cookieSettings" data-translate="cookie.settings">Ayarlar</button>
+                <button class="btn btn-primary" id="acceptAllCookies" data-translate="cookie.accept">Tümünü Kabul Et</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Settings Button -->
+    <button class="cookie-settings-btn" id="floatingCookieBtn" title="Çerez Ayarları">
+        <i class="ti ti-cookie-off"></i>
+    </button>
+
+    <!-- Cookie Settings Modal -->
+    <div class="cookie-modal" id="cookieModal">
+        <div class="cookie-modal-content">
+            <div class="cookie-modal-header">
+                <h3 data-translate="cookie.settings_title">Çerez Ayarları</h3>
+                <button class="close-modal">
+                    <i class="ti ti-x"></i>
+                </button>
+            </div>
+            <div class="cookie-modal-body">
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" checked disabled>
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.necessary_title">Gerekli Çerezler</h4>
+                    </div>
+                    <p data-translate="cookie.necessary_desc">Sitenin çalışması için gerekli olan temel çerezler.</p>
+                </div>
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="analyticsCookies">
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.analytics_title">Analitik Çerezler</h4>
+                    </div>
+                    <p data-translate="cookie.analytics_desc">Sitemizi nasıl kullandığınızı anlamamıza yardımcı olan çerezler.</p>
+                </div>
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="marketingCookies">
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.marketing_title">Pazarlama Çerezleri</h4>
+                    </div>
+                    <p data-translate="cookie.marketing_desc">Size özel reklamlar göstermemize yardımcı olan çerezler.</p>
+                </div>
+            </div>
+            <div class="cookie-modal-footer">
+                <button class="btn btn-outline" id="saveCookieSettings" data-translate="cookie.save">Ayarları Kaydet</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/projects/eTutorsNativeS/assets/js/theme.js"></script>
+</body>
+</html> 

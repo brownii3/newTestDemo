@@ -1,0 +1,252 @@
+/* Pricing Hero */
+.pricing-hero {
+    background: var(--surface);
+    text-align: center;
+    padding: 6rem 0 3rem;
+}
+
+.pricing-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.pricing-hero .hero-description {
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--text-light);
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Features Comparison */
+.features-comparison {
+    padding: 6rem 0;
+    background: var(--background);
+}
+
+.comparison-table {
+    overflow-x: auto;
+    margin-top: 3rem;
+    background: var(--surface);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.comparison-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+}
+
+.comparison-table th:first-child,
+.comparison-table td:first-child {
+    text-align: left;
+}
+
+.comparison-table th {
+    background: var(--surface-2);
+    font-weight: 600;
+    color: var(--text);
+}
+
+.comparison-table td {
+    color: var(--text-light);
+}
+
+.comparison-table i {
+    font-size: 1.25rem;
+}
+
+.comparison-table .ti-check {
+    color: var(--primary);
+}
+
+.comparison-table .ti-x {
+    color: var(--text-light);
+}
+
+/* Testimonial Cards */
+.testimonials {
+    padding: 6rem 0;
+    background: var(--surface);
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.testimonial-card {
+    background: var(--background);
+    border-radius: var(--border-radius-lg);
+    padding: 2rem;
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.testimonial-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-info h4 {
+    margin: 0;
+    color: var(--text);
+    font-size: 1.1rem;
+}
+
+.testimonial-info p {
+    margin: 0.25rem 0 0;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.testimonial-content .rating {
+    margin-bottom: 1rem;
+}
+
+.testimonial-content .rating i {
+    color: #fbbf24;
+    font-size: 1.1rem;
+}
+
+.testimonial-content p {
+    color: var(--text-light);
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 6rem 0;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-content .btn {
+    background: white;
+    color: var(--primary);
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
+
+.cta-content .btn:hover {
+    background: var(--surface);
+    transform: translateY(-2px);
+}
+
+/* Dark Theme Adjustments */
+.dark-theme .comparison-table {
+    background: var(--surface-dark);
+}
+
+.dark-theme .comparison-table th {
+    background: var(--surface-2-dark);
+}
+
+.dark-theme .testimonial-card {
+    background: var(--surface-dark);
+    border-color: var(--border-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .testimonials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .comparison-table th,
+    .comparison-table td {
+        padding: 1rem;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cta-content h2 {
+        font-size: 2rem;
+    }
+
+    .cta-content p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .pricing-hero h1 {
+        font-size: 2rem;
+    }
+
+    .pricing-hero .hero-description {
+        font-size: 1.1rem;
+    }
+}
+
+.pricing .section-header,
+.features-comparison .section-header,
+.testimonials .section-header,
+.faq .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.section-header p {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+} 

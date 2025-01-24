@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda - eTutors</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/global.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/header.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/about.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/buttons.css">
+    <link rel="stylesheet" href="/projects/eTutorsNativeS/assets/css/footer.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    <!-- Scripts -->
+    <script src="/projects/eTutorsNativeS/assets/js/translations.js"></script>
+    <script src="/projects/eTutorsNativeS/assets/js/about.js" defer></script>
+    <script src="/projects/eTutorsNativeS/assets/js/theme.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="glass-effect">
+        <nav class="container">
+            <div class="logo">
+                <i class="ti ti-rocket text-gradient"></i>
+                <span>eTutors</span>
+            </div>
+            <div class="nav-links">
+                <a href="/projects/eTutorsNativeS/" data-translate="header.nav_home">Anasayfa</a>
+                <a href="/projects/eTutorsNativeS/about" class="active" data-translate="header.nav_about">Hakkımızda</a>
+                <a href="/projects/eTutorsNativeS/pricing" data-translate="header.nav_pricing">Fiyatlandırma</a>
+                <a href="/projects/eTutorsNativeS/support" data-translate="header.nav_support">Destek</a>
+            </div>
+            <div class="nav-actions">
+                <!-- Language Selector -->
+                <div class="language-selector">
+                    <button class="lang-btn" data-lang="tr">
+                        <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                        <span>TR</span>
+                    </button>
+                    <div class="lang-dropdown">
+                        <button class="lang-option" data-lang="tr">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/tr.svg" alt="Türkçe">
+                            <span>Türkçe</span>
+                        </button>
+                        <button class="lang-option" data-lang="en">
+                            <img src="/projects/eTutorsNativeS/assets/images/flags/en.svg" alt="English">
+                            <span>English</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="ti ti-sun"></i>
+                </button>
+                <!-- Auth Buttons -->
+                <button class="btn btn-outline" data-translate="header.btn_login">Giriş Yap</button>
+                <button class="btn btn-primary" data-translate="header.btn_signup">Üye Ol</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="about-hero">
+            <div class="container">
+                <div class="about-hero-content">
+                    <h1>
+                        <span data-translate="about.hero.title">Hikayemiz</span>
+                        <span class="text-gradient" data-translate="about.hero.subtitle">ve Misyonumuz</span>
+                    </h1>
+                    <p class="about-description" data-translate="about.hero.description">
+                        2020 yılında Etsy satıcılarının ihtiyaçlarını karşılamak için yola çıktık. 
+                        Bugün 10.000'den fazla satıcıya hizmet veren bir platform olarak, 
+                        her gün Etsy satıcılarının başarı hikayelerine ortak oluyoruz.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti ti-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">10K+</h3>
+                            <p data-translate="about.stats.users">Aktif Kullanıcı</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti ti-chart-line"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">300%</h3>
+                            <p data-translate="about.stats.growth">Ortalama Büyüme</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="ti ti-world"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-number">20+</h3>
+                            <p data-translate="about.stats.countries">Ülke</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="values">
+            <div class="container">
+                <h2 data-translate="about.values.title">Değerlerimiz</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <i class="ti ti-bulb"></i>
+                        <h3 data-translate="about.values.innovation.title">Yenilikçilik</h3>
+                        <p data-translate="about.values.innovation.desc">
+                            Sürekli gelişen e-ticaret dünyasında en yeni teknolojileri ve trendleri takip ediyoruz.
+                        </p>
+                    </div>
+                    <div class="value-card">
+                        <i class="ti ti-heart-handshake"></i>
+                        <h3 data-translate="about.values.trust.title">Güven</h3>
+                        <p data-translate="about.values.trust.desc">
+                            Müşterilerimizle şeffaf ve güvene dayalı ilişkiler kuruyoruz.
+                        </p>
+                    </div>
+                    <div class="value-card">
+                        <i class="ti ti-target"></i>
+                        <h3 data-translate="about.values.quality.title">Kalite</h3>
+                        <p data-translate="about.values.quality.desc">
+                            Her hizmetimizde en yüksek kalite standartlarını hedefliyoruz.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="team">
+            <div class="container">
+                <h2 data-translate="about.team.title">Ekibimiz</h2>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ahmet&backgroundColor=65c9ff" alt="Ahmet Yılmaz">
+                        </div>
+                        <h3>Ahmet Yılmaz</h3>
+                        <p data-translate="about.team.ceo">Kurucu & CEO</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ayse&backgroundColor=ffafcc" alt="Ayşe Demir">
+                        </div>
+                        <h3>Ayşe Demir</h3>
+                        <p data-translate="about.team.cto">CTO</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                            <a href="#" aria-label="GitHub"><i class="ti ti-brand-github"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=mehmet&backgroundColor=9bf6ff" alt="Mehmet Kaya">
+                        </div>
+                        <h3>Mehmet Kaya</h3>
+                        <p data-translate="about.team.design_lead">Tasarım Direktörü</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                            <a href="#" aria-label="Dribbble"><i class="ti ti-brand-dribbble"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="team-card">
+                        <div class="team-image">
+                            <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=zeynep&backgroundColor=bdb2ff" alt="Zeynep Yıldız">
+                        </div>
+                        <h3>Zeynep Yıldız</h3>
+                        <p data-translate="about.team.marketing_lead">Pazarlama Direktörü</p>
+                        <div class="social-links">
+                            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="container">
+                <div class="contact-content">
+                    <h2 data-translate="about.contact.title">Bizimle İletişime Geçin</h2>
+                    <p data-translate="about.contact.description">
+                        Sorularınız veya önerileriniz için bize ulaşın. Size yardımcı olmaktan mutluluk duyarız.
+                    </p>
+                    <div class="contact-buttons">
+                        <a href="mailto:info@etutors.com" class="btn btn-primary">
+                            <i class="ti ti-mail"></i>
+                            <span data-translate="about.contact.email">E-posta Gönder</span>
+                        </a>
+                        <a href="/projects/eTutorsNativeS/contact" class="btn btn-outline">
+                            <i class="ti ti-messages"></i>
+                            <span data-translate="about.contact.form">İletişim Formu</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="ti ti-rocket text-gradient"></i>
+                        <span>eTutors</span>
+                    </div>
+                    <p data-translate="footer.description">Etsy satıcıları için dijital çözümler sunan profesyonel platform.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ti ti-brand-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="ti ti-brand-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.sitemap">Site Haritası</h4>
+                    <ul>
+                        <li><a href="/projects/eTutorsNativeS/" data-translate="footer.nav.home">Anasayfa</a></li>
+                        <li><a href="/projects/eTutorsNativeS/about" data-translate="footer.nav.about">Hakkımızda</a></li>
+                        <li><a href="/projects/eTutorsNativeS/pricing" data-translate="footer.nav.pricing">Fiyatlandırma</a></li>
+                        <li><a href="/projects/eTutorsNativeS/support" data-translate="footer.nav.support">Destek</a></li>
+                        <li><a href="/projects/eTutorsNativeS/contact" data-translate="footer.nav.contact">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.legal.title">Yasal</h4>
+                    <ul>
+                        <li><a href="/terms" data-translate="footer.legal.terms">Kullanım Koşulları</a></li>
+                        <li><a href="/privacy" data-translate="footer.legal.privacy">Gizlilik Politikası</a></li>
+                        <li><a href="/cookies" data-translate="footer.legal.cookie">Çerez Politikası</a></li>
+                        <li><a href="/kvkk" data-translate="footer.legal.kvkk">KVKK</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-translate="footer.contact.title">İletişim</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="ti ti-mail"></i>
+                            <a href="mailto:info@etutors.com" data-translate="footer.contact.email">info@etutors.com</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-phone"></i>
+                            <a href="tel:+902121234567" data-translate="footer.contact.phone">+90 (212) 123 45 67</a>
+                        </li>
+                        <li>
+                            <i class="ti ti-map-pin"></i>
+                            <span data-translate="footer.contact.address">İstanbul, Türkiye</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p><span>&copy; 2024 eTutors.</span> <span data-translate="footer.copyright">Tüm hakları saklıdır.</span></p>
+                <div class="payment-methods">
+                    <i class="ti ti-brand-visa"></i>
+                    <i class="ti ti-brand-mastercard"></i>
+                    <i class="ti ti-brand-paypal"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+        <!-- Cookie Popup - Body kapanmadan önce -->
+    <div class="cookie-popup" id="cookiePopup">
+        <div class="cookie-content">
+            <div class="cookie-header">
+                <i class="ti ti-cookie"></i>
+                <h3 data-translate="cookie.title">Çerez Kullanımı</h3>
+            </div>
+            <p data-translate="cookie.description">
+                Size daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Çerez politikamızı inceleyerek tercihlerinizi güncelleyebilirsiniz.
+            </p>
+            <div class="cookie-actions">
+                <button class="btn btn-outline" id="cookieSettings" data-translate="cookie.settings">Ayarlar</button>
+                <button class="btn btn-primary" id="acceptAllCookies" data-translate="cookie.accept">Tümünü Kabul Et</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Settings Button -->
+    <button class="cookie-settings-btn" id="floatingCookieBtn" title="Çerez Ayarları">
+        <i class="ti ti-cookie-off"></i>
+    </button>
+
+    <!-- Cookie Settings Modal -->
+    <div class="cookie-modal" id="cookieModal">
+        <div class="cookie-modal-content">
+            <div class="cookie-modal-header">
+                <h3 data-translate="cookie.settings_title">Çerez Ayarları</h3>
+                <button class="close-modal">
+                    <i class="ti ti-x"></i>
+                </button>
+            </div>
+            <div class="cookie-modal-body">
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" checked disabled>
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.necessary_title">Gerekli Çerezler</h4>
+                    </div>
+                    <p data-translate="cookie.necessary_desc">Sitenin çalışması için gerekli olan temel çerezler.</p>
+                </div>
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="analyticsCookies">
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.analytics_title">Analitik Çerezler</h4>
+                    </div>
+                    <p data-translate="cookie.analytics_desc">Sitemizi nasıl kullandığınızı anlamamıza yardımcı olan çerezler.</p>
+                </div>
+                <div class="cookie-option">
+                    <div class="cookie-option-header">
+                        <label class="cookie-switch">
+                            <input type="checkbox" id="marketingCookies">
+                            <span class="slider"></span>
+                        </label>
+                        <h4 data-translate="cookie.marketing_title">Pazarlama Çerezleri</h4>
+                    </div>
+                    <p data-translate="cookie.marketing_desc">Size özel reklamlar göstermemize yardımcı olan çerezler.</p>
+                </div>
+            </div>
+            <div class="cookie-modal-footer">
+                <button class="btn btn-outline" id="saveCookieSettings" data-translate="cookie.save">Ayarları Kaydet</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

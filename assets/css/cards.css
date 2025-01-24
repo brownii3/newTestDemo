@@ -1,0 +1,329 @@
+/* Pricing Cards */
+.pricing {
+    padding: 6rem 0;
+    background: var(--surface);
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.pricing-card {
+    background: var(--background);
+    border-radius: var(--border-radius-lg);
+    padding: 2rem;
+    transition: var(--transition);
+    position: relative;
+    border: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+.pricing-card.popular {
+    border: 2px solid var(--primary);
+    box-shadow: 0 8px 24px rgba(255, 107, 53, 0.12);
+    position: relative;
+    z-index: 1;
+}
+
+.pricing-card.popular::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    border-radius: var(--border-radius-lg);
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pricing-card.popular:hover::before {
+    opacity: 1;
+}
+
+.pricing-card.popular:hover {
+    border-color: transparent;
+}
+
+.popular-badge {
+    position: absolute;
+    top: -12px;
+    right: 20px;
+    background: #ff6b35;
+    color: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(255, 107, 53, 0.25);
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.pricing-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.price {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 0.25rem;
+    color: var(--text);
+}
+
+.price .currency {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.price .amount {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.price .period {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.pricing-features {
+    margin-bottom: 2rem;
+    flex: 1;
+}
+
+.pricing-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    color: var(--text);
+}
+
+.pricing-features i {
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+.pricing-btn {
+    width: 100%;
+    padding: 1rem;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.pricing-btn:hover {
+    background: var(--primary-hover);
+    transform: translateY(-2px);
+}
+
+/* Popular Card Hover Effects */
+.pricing-card.popular:hover {
+    border-color: transparent;
+    color: white;
+}
+
+.pricing-card.popular:hover .pricing-header h3,
+.pricing-card.popular:hover .price,
+.pricing-card.popular:hover .price .period,
+.pricing-card.popular:hover .pricing-features li {
+    color: white;
+}
+
+.pricing-card.popular:hover .pricing-features i {
+    color: white;
+}
+
+.pricing-card.popular:hover .pricing-btn {
+    background: white;
+    color: var(--primary);
+}
+
+.pricing-card.popular:hover .pricing-btn:hover {
+    background: var(--surface);
+    transform: translateY(-2px);
+}
+
+/* Normal Card Hover Effects */
+.pricing-card:not(.popular):hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary);
+}
+
+/* Dark Theme Adjustments */
+.dark-theme .pricing-card.popular:hover .pricing-btn {
+    background: white;
+    color: var(--primary);
+}
+
+.dark-theme .pricing-card.popular:hover .pricing-btn:hover {
+    background: var(--surface);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .pricing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        padding: 4rem 0;
+    }
+
+    .price .amount {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .pricing-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* FAQ Cards */
+.faq {
+    padding: 6rem 0;
+    background: var(--background);
+}
+
+.faq-grid {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: var(--surface);
+    border-radius: var(--border-radius-lg);
+    overflow: hidden;
+    transition: var(--transition);
+    border: 1px solid var(--border);
+}
+
+.faq-header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.faq-header h3 {
+    font-size: 1.1rem;
+    color: var(--text);
+    margin: 0;
+    padding-right: 2rem;
+}
+
+.faq-toggle {
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.faq-toggle i {
+    font-size: 1.25rem;
+}
+
+.faq-content {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-content p {
+    margin: 0;
+    padding-bottom: 1.5rem;
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+/* Active state */
+.faq-item.active {
+    background: var(--surface-2);
+}
+
+.faq-item.active .faq-toggle {
+    transform: rotate(45deg);
+}
+
+.faq-item.active .faq-content {
+    max-height: 200px;
+}
+
+/* Hover effects */
+.faq-item:hover {
+    border-color: var(--primary);
+}
+
+/* Dark theme */
+.dark-theme .faq-item {
+    background: var(--surface-dark);
+    border-color: var(--border-dark);
+}
+
+.dark-theme .faq-item.active {
+    background: var(--surface-2-dark);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .faq {
+        padding: 4rem 0;
+    }
+
+    .faq-header {
+        padding: 1.25rem;
+    }
+
+    .faq-header h3 {
+        font-size: 1rem;
+    }
+
+    .faq-content {
+        padding: 0 1.25rem;
+    }
+} 

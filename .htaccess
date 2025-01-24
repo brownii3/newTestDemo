@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteBase /projects/eTutorsNativeS/
+
+# Var olan dosya ve dizinleri yönlendirme
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Ana sayfa yönlendirmesi
+RewriteRule ^$ pages/homepage.html [L]
+
+# Diğer sayfalar için yönlendirmeler
+RewriteRule ^(about|pricing|support|auth)/?$ pages/$1.html [L]
+
+# .html uzantısını gizle
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# 404 sayfası
+ErrorDocument 404 /projects/eTutorsNativeS/pages/404.html
+
+DirectoryIndex pages/homepage.html index.html index.php 

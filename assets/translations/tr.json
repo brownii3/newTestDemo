@@ -1,0 +1,373 @@
+{
+    "header": {
+        "nav_home": "Anasayfa",
+        "nav_about": "Hakkımızda",
+        "nav_pricing": "Fiyatlandırma",
+        "nav_support": "Destek",
+        "btn_login": "Giriş Yap",
+        "btn_signup": "Üye Ol"
+    },
+    "hero": {
+        "title": "Etsy'de Başarının",
+        "title_gradient": "Yeni Formülü",
+        "description": "Eğitimden tasarıma, etiketlerden baskıya kadar Etsy satıcıları için ihtiyacınız olan her şey tek bir platformda. Amerika'daki baskı ve gönderim hizmetlerimizle işinizi büyütün.",
+        "cta": "Hemen Başla",
+        "video": "Nasıl Çalışır?",
+        "stats": {
+            "sellers": "Aktif Satıcı",
+            "courses": "Eğitim",
+            "orders": "Başarılı Sipariş"
+        },
+        "float": "%300 Satış Artışı"
+    },
+    "features": {
+        "title": "Tek Platform, Tüm Çözümler",
+        "items": {
+            "training": {
+                "title": "Kapsamlı Eğitimler",
+                "desc": "Etsy'de başarılı bir mağaza kurmanın tüm püf noktaları"
+            },
+            "design": {
+                "title": "Profesyonel Tasarımlar",
+                "desc": "Trend analizli, satış odaklı tasarım hizmeti"
+            },
+            "seo": {
+                "title": "SEO Etiketleri",
+                "desc": "Satışlarınızı artıracak optimize edilmiş etiketler"
+            },
+            "shipping": {
+                "title": "ABD'de Baskı ve Gönderim",
+                "desc": "Stoksuz e-ticaret için komple fulfillment çözümü"
+            }
+        }
+    },
+    "products": {
+        "title": "En Popüler Ürünler",
+        "subtitle": "Etsy satıcıları tarafından en çok tercih edilen dijital ürünler",
+        "filters": {
+            "all": "Tümü",
+            "standard": "Standart",
+            "premium": "Premium",
+            "plus": "Plus"
+        },
+        "items": {
+            "instagram": {
+                "title": "Instagram Şablon Paketi",
+                "desc": "20 Story + 10 Post Şablonu"
+            },
+            "store": {
+                "title": "Etsy Mağaza Paketi",
+                "desc": "Banner + 5 Listing Şablonu"
+            },
+            "seo": {
+                "title": "SEO Optimizasyon Paketi",
+                "desc": "Anahtar Kelime + Listing Optimizasyonu"
+            }
+        },
+        "cta": "Hemen Başla",
+        "badges": {
+            "premium": "PREMİUM",
+            "plus": "PLUS",
+            "standard": "STANDART"
+        }
+    },
+    "pricing": {
+        "hero": {
+            "title": "Başarıya Giden Yolda İlk Adım",
+            "description": "Etsy'de başarılı bir satıcı olmak için ihtiyacınız olan her şey burada. Size en uygun paketi seçin, hemen başlayın."
+        },
+        "title": "Fiyatlandırma Planları",
+        "subtitle": "İhtiyacınıza en uygun paketi seçin",
+        "period": "/aylık",
+        "popular_badge": "En Çok Tercih Edilen",
+        "cta": "Paketi Seç",
+        "plans": {
+            "cta": "Paketi Seç",
+            "standard": {
+                "title": "Standart",
+                "features": {
+                    "templates": "10 Tasarım Şablonu",
+                    "seo": "50 SEO Etiketi",
+                    "videos": "Temel Eğitim Videoları",
+                    "support": "Email Desteği"
+                }
+            },
+            "premium": {
+                "title": "Premium",
+                "features": {
+                    "templates": "30 Tasarım Şablonu",
+                    "seo": "150 SEO Etiketi",
+                    "videos": "Tüm Eğitim Videoları",
+                    "support": "Öncelikli Destek",
+                    "consulting": "Birebir Danışmanlık"
+                }
+            },
+            "plus": {
+                "title": "Plus",
+                "features": {
+                    "templates": "Sınırsız Tasarım",
+                    "seo": "Sınırsız SEO Etiketi",
+                    "videos": "VIP Eğitim İçerikleri",
+                    "support": "7/24 Öncelikli Destek",
+                    "consulting": "Haftalık Danışmanlık",
+                    "fulfillment": "ABD Fulfillment"
+                }
+            }
+        },
+        "comparison": {
+            "title": "Paket Karşılaştırması",
+            "subtitle": "Hangi paketin size uygun olduğunu karşılaştırın",
+            "features": {
+                "templates": "Tasarım Şablonları",
+                "seo": "SEO Etiketleri",
+                "videos": "Eğitim İçerikleri",
+                "support": "Destek",
+                "consulting": "Danışmanlık",
+                "fulfillment": "Fulfillment"
+            },
+            "values": {
+                "standard": {
+                    "templates": "10 Adet",
+                    "seo": "50 Adet",
+                    "videos": "Temel",
+                    "support": "Email",
+                    "consulting": "-",
+                    "fulfillment": "-"
+                },
+                "premium": {
+                    "templates": "30 Adet",
+                    "seo": "150 Adet",
+                    "videos": "Gelişmiş",
+                    "support": "Öncelikli",
+                    "consulting": "Birebir",
+                    "fulfillment": "-"
+                },
+                "plus": {
+                    "templates": "Sınırsız",
+                    "seo": "Sınırsız",
+                    "videos": "VIP",
+                    "support": "7/24",
+                    "consulting": "Haftalık",
+                    "fulfillment": "ABD"
+                }
+            }
+        },
+        "testimonials": {
+            "title": "Başarı Hikayeleri",
+            "subtitle": "Müşterilerimizin deneyimleri",
+            "items": {
+                "ayse": {
+                    "name": "Ayşe Yılmaz",
+                    "role": "Premium Üye",
+                    "quote": "eTutors ile satışlarım %300 arttı. Özellikle SEO etiketleri ve danışmanlık hizmeti çok faydalı oldu."
+                },
+                "mehmet": {
+                    "name": "Mehmet Demir",
+                    "role": "Plus Üye",
+                    "quote": "ABD'deki fulfillment hizmeti sayesinde stok derdi olmadan satış yapabiliyorum. Harika bir sistem!"
+                },
+                "zeynep": {
+                    "name": "Zeynep Kaya",
+                    "role": "Premium Üye",
+                    "quote": "Tasarım şablonları ve eğitim videoları sayesinde Etsy'de hızlı bir başlangıç yaptım. Teşekkürler eTutors!"
+                }
+            }
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "subtitle": "Fiyatlandırma ile ilgili merak edilenler",
+            "items": {
+                "billing": {
+                    "question": "Faturalama nasıl yapılıyor?",
+                    "answer": "Faturalama aylık olarak yapılır ve otomatik olarak yenilenir. İstediğiniz zaman iptal edebilirsiniz."
+                },
+                "refund": {
+                    "question": "İade politikanız nedir?",
+                    "answer": "İlk 14 gün içinde memnun kalmazsanız %100 para iade garantisi sunuyoruz."
+                },
+                "upgrade": {
+                    "question": "Paketimi yükseltebilir miyim?",
+                    "answer": "Evet, dilediğiniz zaman paketinizi yükseltebilirsiniz. Fiyat farkı bir sonraki fatura döneminde yansıtılır."
+                }
+            }
+        },
+        "cta": {
+            "title": "Hemen Başlayın",
+            "description": "Etsy başarı yolculuğunuza bugün başlayın. İlk 14 gün ücretsiz!",
+            "button": "Ücretsiz Deneyin"
+        }
+    },
+    "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Merak ettiğiniz tüm soruların cevapları",
+        "items": {
+            "start": {
+                "question": "eTutors ile nasıl başlarım?",
+                "answer": "eTutors'a üye olduktan sonra size en uygun paketi seçerek hemen başlayabilirsiniz..."
+            },
+            "payment": {
+                "question": "Ödeme yöntemleri nelerdir?",
+                "answer": "Kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz..."
+            },
+            "change": {
+                "question": "Paketimi değiştirebilir miyim?",
+                "answer": "Evet, paketinizi dilediğiniz zaman yükseltebilir veya düşürebilirsiniz. Değişiklikler bir sonraki fatura döneminde geçerli olur."
+            },
+            "delivery": {
+                "question": "Tasarımları nasıl teslim ediyorsunuz?",
+                "answer": "Tüm tasarımlar yüksek çözünürlüklü PNG ve düzenlenebilir PSD formatında size özel panelden indirilebilir şekilde teslim edilir."
+            }
+        }
+    },
+    "footer": {
+        "description": "Etsy satıcıları için dijital çözümler sunan profesyonel platform.",
+        "sitemap": "Site Haritası",
+        "legal": {
+            "title": "Yasal",
+            "terms": "Kullanım Koşulları",
+            "privacy": "Gizlilik Politikası",
+            "cookie": "Çerez Politikası",
+            "kvkk": "KVKK"
+        },
+        "contact": {
+            "title": "İletişim",
+            "email": "info@etutors.com",
+            "phone": "+90 (212) 123 45 67",
+            "address": "İstanbul, Türkiye"
+        },
+        "nav": {
+            "home": "Anasayfa",
+            "about": "Hakkımızda",
+            "pricing": "Fiyatlandırma",
+            "support": "Destek",
+            "contact": "İletişim"
+        },
+        "copyright": "Tüm hakları saklıdır."
+    },
+    "cookie": {
+        "title": "Çerez Kullanımı",
+        "description": "Size daha iyi bir deneyim sunmak için çerezleri kullanıyoruz. Çerez politikamızı inceleyerek tercihlerinizi güncelleyebilirsiniz.",
+        "accept": "Tümünü Kabul Et",
+        "settings": "Ayarlar",
+        "settings_title": "Çerez Ayarları",
+        "save": "Ayarları Kaydet",
+        "necessary_title": "Gerekli Çerezler",
+        "necessary_desc": "Sitenin çalışması için gerekli olan temel çerezler.",
+        "analytics_title": "Analitik Çerezler",
+        "analytics_desc": "Sitemizi nasıl kullandığınızı anlamamıza yardımcı olan çerezler.",
+        "marketing_title": "Pazarlama Çerezleri",
+        "marketing_desc": "Size özel reklamlar göstermemize yardımcı olan çerezler."
+    },
+    "about": {
+        "hero": {
+            "title": "Hikayemiz",
+            "subtitle": "ve Misyonumuz",
+            "description": "2020 yılında Etsy satıcılarının ihtiyaçlarını karşılamak için yola çıktık. Bugün 10.000'den fazla satıcıya hizmet veren bir platform olarak, her gün Etsy satıcılarının başarı hikayelerine ortak oluyoruz."
+        },
+        "stats": {
+            "users": "Aktif Kullanıcı",
+            "growth": "Ortalama Büyüme",
+            "countries": "Ülke"
+        },
+        "values": {
+            "title": "Değerlerimiz",
+            "innovation": {
+                "title": "Yenilikçilik",
+                "desc": "Sürekli gelişen e-ticaret dünyasında en yeni teknolojileri ve trendleri takip ediyoruz."
+            },
+            "trust": {
+                "title": "Güven",
+                "desc": "Müşterilerimizle şeffaf ve güvene dayalı ilişkiler kuruyoruz."
+            },
+            "quality": {
+                "title": "Kalite",
+                "desc": "Her hizmetimizde en yüksek kalite standartlarını hedefliyoruz."
+            }
+        },
+        "team": {
+            "title": "Ekibimiz",
+            "ceo": "Kurucu & CEO",
+            "cto": "CTO",
+            "design_lead": "Tasarım Direktörü",
+            "marketing_lead": "Pazarlama Direktörü"
+        },
+        "contact": {
+            "title": "Bizimle İletişime Geçin",
+            "description": "Sorularınız veya önerileriniz için bize ulaşın. Size yardımcı olmaktan mutluluk duyarız.",
+            "email": "E-posta Gönder",
+            "form": "İletişim Formu"
+        }
+    },
+    "support": {
+        "hero": {
+            "title": "Size Nasıl Yardımcı Olabiliriz?",
+            "description": "Sıkça sorulan sorular, eğitim videoları ve destek ekibimiz ile yanınızdayız.",
+            "search_placeholder": "Sorunuzu yazın..."
+        },
+        "categories": {
+            "getting_started": {
+                "title": "Başlangıç Rehberi",
+                "desc": "Etsy mağazanızı kurmak için adım adım rehber"
+            },
+            "account": {
+                "title": "Hesap ve Faturalama",
+                "desc": "Üyelik ve ödeme işlemleri hakkında bilgiler"
+            },
+            "templates": {
+                "title": "Tasarım Şablonları",
+                "desc": "Şablonları kullanma ve özelleştirme rehberi"
+            },
+            "seo": {
+                "title": "SEO ve Pazarlama",
+                "desc": "Satışlarınızı artırmak için SEO ipuçları"
+            },
+            "view": "Detayları Görüntüle"
+        },
+        "faq": {
+            "title": "Sıkça Sorulan Sorular",
+            "subtitle": "En çok sorulan sorular ve cevapları",
+            "items": {
+                "start": {
+                    "question": "eTutors'ı nasıl kullanmaya başlarım?",
+                    "answer": "Üye olduktan sonra size özel panelinize erişebilir ve hemen kullanmaya başlayabilirsiniz. Başlangıç rehberimiz size yardımcı olacaktır."
+                },
+                "templates": {
+                    "question": "Şablonları nasıl özelleştirebilirim?",
+                    "answer": "Şablonlarımız Photoshop ve Canva formatında sunulmaktadır. Her şablon için detaylı özelleştirme rehberi bulunmaktadır."
+                },
+                "seo": {
+                    "question": "SEO etiketlerini nasıl kullanmalıyım?",
+                    "answer": "SEO etiketleri ürününüze özel olarak optimize edilmiştir. Etiketleri Etsy listinize ekleyerek daha fazla görüntülenme alabilirsiniz."
+                }
+            }
+        },
+        "contact": {
+            "title": "Hala Yardıma mı İhtiyacınız Var?",
+            "subtitle": "Destek ekibimiz size yardımcı olmak için hazır",
+            "email": {
+                "title": "Email Desteği",
+                "desc": "Ortalama yanıt süremiz 24 saattir",
+                "button": "Email Gönder"
+            },
+            "chat": {
+                "title": "Canlı Destek",
+                "desc": "Mesai saatleri içinde anlık destek",
+                "button": "Sohbeti Başlat"
+            }
+        }
+    },
+    "welcome": "Hoş Geldiniz!",
+    "welcome_subtitle": "Hesabınıza giriş yapın veya yeni hesap oluşturun",
+    "login": "Giriş Yap",
+    "register": "Kayıt Ol",
+    "email": "E-posta",
+    "password": "Şifre",
+    "forgot_password": "Şifremi Unuttum",
+    "fullname": "Ad Soyad",
+    "password_confirm": "Şifre Tekrar",
+    "or_continue_with": "veya şununla devam et",
+    "platform_description": "Eğitim yolculuğunuzda size rehberlik edecek en iyi platform. Hemen başlayın ve potansiyelinizi keşfedin!",
+    "email_placeholder": "ornek@email.com",
+    "password_placeholder": "••••••••",
+    "fullname_placeholder": "Ad Soyad"
+} 

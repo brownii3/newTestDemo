@@ -1,0 +1,147 @@
+:root {
+  /* Açık Tema Renkleri */
+  --primary: #ff6b35;
+  --primary-hover: #ff855e;
+  --secondary: #ff9f1c;
+  --accent: #ffbf69;
+  --background: #ffffff;
+  --surface: #f8f9fa;
+  --surface-2: #f1f3f5;
+  --text: #2d3436;
+  --text-light: #636e72;
+  --border: #e9ecef;
+
+  /* Koyu Tema Renkleri */
+  --primary-dark: #ff8c61;
+  --secondary-dark: #ffb74d;
+  --background-dark: #121212;
+  --surface-dark: #1e1e1e;
+  --surface-2-dark: #2d2d2d;
+  --text-dark: #f5f6fa;
+  --text-light-dark: #a0a0a0;
+  --border-dark: #404040;
+
+  /* Gölgeler */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+  /* Diğer */
+  --border-radius-sm: 4px;
+  --border-radius: 6px;
+  --border-radius-lg: 8px;
+  --max-width: 1200px;
+  --header-height: 60px;
+  --transition: all 0.3s ease;
+}
+
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+  transition: var(--transition);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.75rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.1rem; }
+h6 { font-size: 0.9rem; }
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--primary-hover);
+}
+
+/* Dark Theme */
+body.dark-theme {
+  --background: var(--background-dark);
+  --surface: var(--surface-dark);
+  --surface-2: var(--surface-2-dark);
+  --text: var(--text-dark);
+  --text-light: var(--text-light-dark);
+  --border: var(--border-dark);
+}
+
+/* Utility Classes */
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(20px);
+  
+}
+
+.dark-theme .glass-effect {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+  h4 { font-size: 1.25rem; }
+  h5 { font-size: 1.1rem; }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: var(--border-radius);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-hover);
+} 
